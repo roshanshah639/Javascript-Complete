@@ -29,4 +29,22 @@ const myFunction = () => {
   console.log("Hello World!");
 };
 
+// Stack(Primitive), Heap(Reference)
+let myYoutubeName = "myyoutube";
+
+let anotheName = myYoutubeName;
+anotheName = "Coding Tube";
+
+// console.log(anotheName);
+// console.log(myYoutubeName);
+
+let user = {
+  email: "pO7pY@example.com",
+  upi: "http://www.example.com",
+};
+let userTwo = user;
+
+userTwo.email = "email@example.com";
+// console.log(user, userTwo);
+
 
