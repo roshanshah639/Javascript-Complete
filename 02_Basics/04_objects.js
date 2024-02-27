@@ -63,4 +63,20 @@ const myObj = {
   4: "d",
 };
 
+const course = {
+  coursename: "Javascript",
+  price: 200,
+  courseInstructor: "Roshan Shah",
+};
+
+const { courseInstructor: instructor } = course;
+console.log(instructor);
+
+// {
+//   "name": "Roshan",
+//   "course": "Javascript",
+//   "price": "Free",
+// }
+
+// https://api.github.com/users/roshanshah639
 
