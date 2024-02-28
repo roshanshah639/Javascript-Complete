@@ -37,3 +37,4 @@ for (let i = 0; i < myArray.length; i++) {
 //   console.log(`The value of i is: ${i}`);
 // }
 
+// while
